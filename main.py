@@ -6,6 +6,6 @@ def main():
     query = f"SELECT * FROM users WHERE username = '{username}'"
     user_data = execute_query(query)
     print(f"User data: {user_data}")
-
+##
 if __name__ == "__main__":
     main()
